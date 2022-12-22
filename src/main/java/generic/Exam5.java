@@ -55,7 +55,7 @@ class FruitComp implements Comparator<Fruits> {
 class FruitsBox <T extends Fruits> extends Box<T> {}
 
 
-public class exam5 {
+public class Exam5 {
     public static void main(String[] args) {
         FruitsBox<Apples> appleBox = new FruitsBox<Apples>();
         FruitsBox<Grapes> grapeBox = new FruitsBox<Grapes>();

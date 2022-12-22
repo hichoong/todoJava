@@ -13,7 +13,7 @@ package generic;
  *기존의 클래스를 만들던 방식
  **/
 
-public class exam1 {
+public class Exam1 {
     public static void main(String[] args) {
         Box<String> box = new Box<>();
         box.add("이건 뭘까요?");

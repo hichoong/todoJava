@@ -30,7 +30,7 @@ class Juicer {
     }
 }
 
-public class exam4 {
+public class Exam4 {
     public static void main(String[] args) {
         FruitBox<Fruit> fruitBox = new FruitBox<>();
         FruitBox<Apple> applebox = new FruitBox<Apple>();

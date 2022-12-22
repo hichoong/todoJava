@@ -10,7 +10,7 @@ package generic;
  *
  */
 
-public class exam2 {
+public class Exam2 {
     public static void main(String[] args) {
         Box<Fruit> fruitBox = new Box<Fruit>();
         Box<Apple> appleBox = new Box<Apple>();
