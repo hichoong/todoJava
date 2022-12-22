@@ -9,7 +9,7 @@ package generic;
 
 
 class FruitBox<T extends Fruit & Eatable> extends Box<T> {}
-public class exam3 {
+public class Exam3 {
     public static void main(String[] args) {
         FruitBox<Fruit> fruitBox = new FruitBox<Fruit>();
         FruitBox<Apple> appleBox= new FruitBox<Apple>();
