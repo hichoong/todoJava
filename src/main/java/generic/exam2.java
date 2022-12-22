@@ -7,6 +7,7 @@ package generic;
  * 2. 제네릭 클래스간 상속관계에 있고, 대입된 타입이 같은 것은 괜챃음
  *  ex) Box<apple> appleBox = new FruitBox<Apple> // Box가 FruitBox의 부모클래스이고 대입된 타입이 같을 시
  *
+ *
  */
 
 public class exam2 {
@@ -20,8 +21,8 @@ public class exam2 {
         fruitBox.add(new Apple());
         //appleBox.add(new Fruit()); //에러, 부모타입 넣기 불가
 
-        appleBox. add(new Apple());
-        appleBox. add(new Apple());
+        appleBox.add(new Apple());
+        appleBox.add(new Apple());
         toyBox.add(new Toy());
 
         System.out.println(fruitBox);
