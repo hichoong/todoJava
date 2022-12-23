@@ -3,5 +3,5 @@
 Today I Learned
 
 # 자바
-[제네릭](https://github.com/hichoong/todoJava/blob/master/src/main/java/generic.md) 
-[열거형](https://github.com/hichoong/todoJava/blob/master/src/main/java/enum.md)
+* [제네릭](https://github.com/hichoong/todoJava/blob/master/src/main/java/generic.md) 
+* [열거형](https://github.com/hichoong/todoJava/blob/master/src/main/java/enum.md)
