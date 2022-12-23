@@ -42,7 +42,7 @@ class Student implements Comparable<Student> {
         this.totalScore = totalScore;
     }
     public String toString() {
-        return String.format("{%s, %d, %d", name, ban, totalScore);
+        return String.format("[%s, %d, %d]", name, ban, totalScore);
     }
 
     public String getName() {
