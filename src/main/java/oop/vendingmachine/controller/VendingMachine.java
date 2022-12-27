@@ -4,8 +4,6 @@ import oop.vendingmachine.view.Choice;
 
 import java.util.Scanner;
 
-import static oop.vendingmachine.model.Beverage.*;
-
 public class VendingMachine {
     Scanner scanner = new Scanner(System.in);
     Choice choice = new Choice();
@@ -24,7 +22,7 @@ public class VendingMachine {
                 if (money < totalPrice) {
                     int selectCountinueMachine = laackOfMoney();
                     if (selectCountinueMachine > (money-totalPrice)) {
-                        lackView();
+                        choice.lackView();
                         money += selectCountinueMachine;
                         break;
                     }
@@ -39,11 +37,6 @@ public class VendingMachine {
         }
         System.out.println(money + "원 돌려드리겠습니다.");
         System.out.println("다믐에 또 이용해 주세요.");
-    }
-
-    private void lackView() {
-        System.out.println("금액이 부족합니다.");
-        System.out.println("금액을 되돌려 드리겠습니다.");
     }
 
     public int inputMoney() {

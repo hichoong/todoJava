@@ -74,4 +74,9 @@ public class Choice {
                 return true;
         }
     }
+
+    public void lackView() {
+        System.out.println("금액이 부족합니다.");
+        System.out.println("금액을 되돌려 드리겠습니다.");
+    }
 }
