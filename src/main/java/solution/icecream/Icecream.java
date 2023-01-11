@@ -34,6 +34,7 @@ public class Icecream {
         this.price = price;
     }
 
+
     @Override
     public String toString() {
         return "Icecream{" +
